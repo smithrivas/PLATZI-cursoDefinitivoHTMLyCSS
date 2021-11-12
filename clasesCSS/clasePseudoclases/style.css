@@ -1,0 +1,41 @@
+.main-nav{
+    /* Margen superior */
+    margin-top: 10px;
+    /* Eliminar puntos que aparecen en listas desordenadas */
+    list-style: none;
+    /* Elimina espacio a la izquierda dentro de la caja */
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    /* Para que el listado quede horizontal */
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: white;
+    /* Espacio entre los elementos */
+    padding: 5px;
+    /* Le agrega borde */
+    border-radius: 2px;
+    /* Elimina subrayado que genera la etiqueta "a" */
+    text-decoration: none;
+}
+
+/* PSEUDOCLASE */
+/* Efecto de oscurecer texto cuando se pasa el cursor por encima */
+.main-nav__item a:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Cambia el color del elemento al cual se dió click */
+.main-nav__item a:active{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* PSEUDOELEMENTOS */
+/* Agrega un caracter después del texto de la etiqueta */
+.main-nav__item a::after{
+    content: " | ";
+}
