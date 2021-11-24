@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: purple;
+    font-family: serif;
+    /* Margen de abajo */
+    margin-bottom: 10px;
+}
+#page-title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    font-size: 18px;
+    font-family: monospace;
+}
+#main-nav {
+    /* Margen superior */
+    margin-top: 10px;
+    /* Eliminar viñetas */
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav li {
+    /* Para que se alineen de forma horizontal */
+    display: inline-block;
+}
+#main-nav a {
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    /* Borde de los botones */
+    border-radius: 2px;
+    text-decoration: none;
+}
+#main-nav .blog {
+    background-color: orange;
+}
+
+/* 
+-Los !important estarán por encima de los demás estilos. Sin embargo, son mala práctica y no se deberían usar.
+-Los estilos embebidos en el HTML, es decir inline styles están por encima de las clases y IDs. Sin embargo, también se deberían evitar.
+-Los IDs están por encima de las clases. Los IDs son específicos, si se usa uno en un archivo HTML ya no se podrá repetir más en ese mismo archivo. Mientras que las clases si se pueden repetir en cualquier elemento.
+-Un estilo de etiqueta es el último valor que el navegador tiene en cuenta antes de tomar los estilos por defecto de esa etiqueta. Los estilos de etiqueta son los que menos peso tienen.
+*/

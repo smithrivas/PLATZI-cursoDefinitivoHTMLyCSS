@@ -1,0 +1,20 @@
+* {
+    /* Ocupa toda la pantalla, 100% */
+    /* Ajusta automaticamente el width con los demás elementos para que no se genere scroll(Margin no se ajusta automáticamente) */
+    box-sizing: border-box;
+    /* Elimina los valores que por defecto trae el navegador los cuales generan conflicto en nuestro código */
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    /* Largo de la caja */
+    width: 100%;
+    /* Altura */
+    height: 500px;
+    /* Borde de la caja */
+    border: 10px solid grey;
+    /* Espacio hacia adentro, 20px arriba y abajo y 35px derecha e izquierda */
+    /* Si se pone solo un valor entonces se aplica arriba, abajo, derecha e izquierda, para ser más especifico indicar lado */
+    padding: 20px 35px;
+}
