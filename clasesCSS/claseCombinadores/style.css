@@ -1,0 +1,23 @@
+/*  
+ADJACENT SIBLING: Todos los P que estén inmediatamente después de h2
+h2 + p {
+    color: red;
+}
+*/
+
+/* GENERAL SIBLING(Hermanos generales): Aplica estilos a los hermanos en general que tengan como hermano general “x” tag  
+h2 ~ p {
+    color: red;
+}
+*/
+
+/* Etiqueta P que sea hija directa de etiqueta div */
+/* HIJO: Etiqueta P que sea hija directa de etiqueta DIV
+DESCENDIENTE: Todas las etiquetas P contenidas dentro del DIV principal */
+div > p {
+    color: red;
+}
+/* 
+div p {
+    color: red;
+} */

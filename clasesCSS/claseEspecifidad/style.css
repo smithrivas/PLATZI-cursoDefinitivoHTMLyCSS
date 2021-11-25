@@ -9,25 +9,22 @@ h1 {
     /* Margen de abajo */
     margin-bottom: 10px;
 }
-#page-title {
-    font-family: Arial, Helvetica, sans-serif;
-}
 .title {
     font-size: 18px;
     font-family: monospace;
 }
-#main-nav {
+.nav {
     /* Margen superior */
     margin-top: 10px;
     /* Eliminar viñetas */
     list-style-type: none;
     padding-left: 0;
 }
-#main-nav li {
+.nav li {
     /* Para que se alineen de forma horizontal */
     display: inline-block;
 }
-#main-nav a {
+.nav a {
     color: white;
     background-color: #13a4a4;
     padding: 5px;
@@ -35,7 +32,7 @@ h1 {
     border-radius: 2px;
     text-decoration: none;
 }
-#main-nav .blog {
+.nav .blog {
     background-color: orange;
 }
 

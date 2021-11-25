@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vw;
+    background-color: purple;
+}
+
+section {
+    width: 80%;
+    /* Ocupara el 80% del espacio hasta que llegue a 320px y ahí ocupará el 100% */
+    /* Si al expandirse supera los 500px se queda fijo con 500px sin importar cuanto se expanda */
+    min-width: 320px;
+    max-width: 500px;
+    /* El tamaño mínimo será 500px y a partir de esa dimensión crecerá según la cantidad de contenido */
+    min-height: 500px;
+    /* Derecha e izquierda ajusta el margin de forma automática */
+    margin: 0 auto;
+    background-color: red;
+}

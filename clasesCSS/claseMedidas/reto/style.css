@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+    height: 100vw;    
+}
+#one{
+    width: 25%;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    padding: 12px;
+    min-width: 100px;
+    max-width: 125px;    
+    position: relative;
+    top: 16px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#two{
+    width: 40%;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: rgba(240, 240, 240, 0.555);
+    border: 1px solid rgba(211, 211, 211, 0.226);
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+#submit{
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: rgb(101, 154, 223);
+    border: none;
+    padding: 8px;
+    width: 70px;
+    color: white;    
+}
+
+#username, #password{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: rgba(245, 245, 245, 0.027);
+    padding: 5px;
+    width: 190px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+#ayuda{
+    font-size: 14px;
+}

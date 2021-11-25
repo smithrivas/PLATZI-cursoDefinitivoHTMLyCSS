@@ -1,0 +1,18 @@
+/* Siempre debe ir en los archivos de CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Se setea de esa manera para que siempre 1rem equivalga a 10px */
+html {
+    font-size: 62.5%;
+}
+
+/* 1rem equivale a 10px, en el ejemplo: 16px */
+p {
+    font-size: 1.6rem;
+}
+main div {
+    font-size: 1.6rem;
+}
